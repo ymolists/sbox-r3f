@@ -1,0 +1,25 @@
+.idea
+.fleet
+.vscode
+.DS_Store
+
+dist
+build
+debug
+debug.test
+
+#gen files
+*.gen.tsx
+*.gen.go
+*.gen_test.go
+
+#nodejs files
+node_modules
+
+#make
+Makefile.mk
+
+#generated files
+pkg/mesh/ent
+pkg/mesh/gqlgen
+
