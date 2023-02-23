@@ -1,0 +1,18 @@
+.idea
+.fleet
+.vscode
+.DS_Store
+
+dist
+build
+debug
+debug.test
+
+#nodejs files
+node_modules
+pnpm-lock.yaml
+
+#nodejs pkgs
+.pnp.*
+.yarn
+yarn.lock
