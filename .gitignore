@@ -8,18 +8,11 @@ build
 debug
 debug.test
 
-#gen files
-*.gen.tsx
-*.gen.go
-*.gen_test.go
-
 #nodejs files
 node_modules
+pnpm-lock.yaml
 
-#make
-Makefile.mk
-
-#generated files
-pkg/mesh/ent
-pkg/mesh/gqlgen
-
+#nodejs pkgs
+.pnp.*
+.yarn
+yarn.lock
